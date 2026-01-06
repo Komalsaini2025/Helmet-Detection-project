@@ -38,7 +38,7 @@ if not os.path.exists(CSV_FILE):
     df.to_csv(CSV_FILE, index=False)
 
 st.title("🛵 Helmet & Number Plate Detection 🚀")
-st.write("Upload an image to detect helmets and recognize number plates.")
+st.write("Upload an image to detect helmets and recognize the number plates.")
 
 uploaded_file = st.file_uploader("Upload Image", type=["jpg", "png", "jpeg"])
 
