@@ -131,4 +131,4 @@ if uploaded_file is not None:
     st.write("### 📋 Detection Results:")
     st.dataframe(new_data)
 
-    st.success("✅ Data automatically saved into `detection_results.csv`")
+    st.success("✅ Data automatically saved in `detection_results.csv`")
