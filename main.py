@@ -128,7 +128,7 @@ if uploaded_file is not None:
     new_data.to_csv(CSV_FILE, mode='a', header=not os.path.exists(CSV_FILE), index=False)
 
     # 🔹 **Then Show CSV Data**
-    st.write("### 📋 Detection Results:")
+    st.write("# 📋 Detection Results:")
     st.dataframe(new_data)
 
     st.success("✅ Data automatically saved in `detection_results.csv`")
